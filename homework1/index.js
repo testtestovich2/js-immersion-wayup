@@ -15,14 +15,14 @@ let population = 510300;
 let stadium = true;
 
 console.log(
-  "Я живу " +
-    city +
-    " , " +
-    country +
-    " население: " +
-    population +
-    " , стадион: " +
-    stadium
+   "Я живу " +
+   city +
+   " , " +
+   country +
+   " население: " +
+   population +
+   " , стадион: " +
+   stadium
 );
 
 /* 
@@ -82,11 +82,11 @@ console.log("Расстояние между городами: " + distance + " 
 */
 const randomNumber = Math.floor(Math.random() * 100);
 if (randomNumber < 20) {
-  console.log("randomNumber меньше 20, " + randomNumber);
+   console.log("randomNumber меньше 20, " + randomNumber);
 } else if (randomNumber > 50) {
-  console.log("randomNumber больше 50, " + randomNumber);
+   console.log("randomNumber больше 50, " + randomNumber);
 } else {
-  console.log("randomNumber больше 20, и меньше 50, " + randomNumber);
+   console.log("randomNumber больше 20, и меньше 50, " + randomNumber);
 }
 /* 
     Задание 5:
@@ -95,13 +95,13 @@ if (randomNumber < 20) {
 */
 
 switch (true) {
-  case randomNumber < 20:
-    console.log("randomNumber меньше 20, " + randomNumber);
-    break;
-  case randomNumber > 50:
-    console.log("randomNumber больше 50, " + randomNumber);
-    break;
-  default:
-    console.log("randomNumber больше 20, и меньше 50, " + randomNumber);
-    break;
+   case randomNumber < 20:
+      console.log("randomNumber меньше 20, " + randomNumber);
+      break;
+   case randomNumber > 50:
+      console.log("randomNumber больше 50, " + randomNumber);
+      break;
+   default:
+      console.log("randomNumber больше 20, и меньше 50, " + randomNumber);
+      break;
 }
